@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KidsLearn - Kids Learning Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>KidsLearn</h1>
+        <p>Learn, Play and Grow!</p>
+    </header>
+
+    <section class="clock">
+        <h2>⏰ Digital Clock</h2>
+        <h2 id="time"></h2>
+    </section>
+
+    <section class="welcome">
+        <h2 id="title">Welcome to KidsLearn!</h2>
+        <p id="message">Let's make learning fun and exciting!</p>
+
+        <button onclick="changeStyle()">Change Style</button>
+        <button onclick="hideText()">Hide Message</button>
+        <button onclick="showText()">Show Message</button>
+    </section>
+
+    <section class="subjects">
+        <h2>📚 Choose Your Subject</h2>
+
+        <div class="cards">
+            <div class="card">🔢 Mathematics</div>
+            <div class="card">🔤 English</div>
+            <div class="card">🔬 Science</div>
+            <div class="card">🎨 Arts</div>
+        </div>
+    </section>
+
+    <section class="animation">
+        <h2>🚀 Fun Animation</h2>
+
+        <div id="container">
+            <div id="box">⭐</div>
+        </div>
+
+        <button onclick="move()">Start Animation</button>
+        <button onclick="stop()">Stop Animation</button>
+        <button onclick="fade()">Fade Box</button>
+        <button onclick="resetBox()">Reset</button>
+    </section>
+
+    <footer>
+        <p>© 2026 KidsLearn | Happy Learning! 🎈</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
